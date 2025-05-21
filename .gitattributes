@@ -1,0 +1,5 @@
+# Set default behavior to not modify line endings for node_modules
+node_modules/** text eol=lf
+
+# Or exclude node_modules entirely from line ending conversions
+node_modules/** -text
