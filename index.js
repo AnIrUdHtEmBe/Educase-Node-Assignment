@@ -1,6 +1,6 @@
 import express from "express";
 import { config } from './utils/config.js';
-import { schoolRouter } from "./routes/school.js";
+import { schoolRouter } from "./api/school.js";
 
 const app = express();
 app.use(express.json());
